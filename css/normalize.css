@@ -1,23 +1,25 @@
-/* CSS for the Navigation Bar */
+/* Navigation Bar Styles */
 nav {
-    background-color: blue; /* Set background color to blue */
+    background-color: blue; /* Set background to blue */
     overflow: hidden;
     width: 100%;
+    position: relative;
+    list-style-type: none; /* Removes bullet points */
     margin: 0;
     padding: 0;
 }
 
 nav ul {
-    display: flex;
-    justify-content: center; /* Centers the navigation links */
     list-style-type: none; /* Removes bullet points */
-    padding: 0;
     margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center; /* Centers the nav items */
 }
 
 nav li {
-    padding: 0;
     margin: 0;
+    padding: 0;
 }
 
 nav a {
@@ -27,17 +29,15 @@ nav a {
     text-decoration: none;
 }
 
-/* CSS for the Sidebar */
+/* Sidebar Styles */
 aside {
     position: fixed;
-    right: 0;
-    top: 0;
-    background-color: blue; /* Set sidebar background color to blue */
+    right: 0%;
+    background-color: red; /* Set sidebar background to red */
     height: 100%;
     width: 20%;
     list-style-type: none; /* Removes bullet points */
     padding: 15px 0;
-    margin: 0;
     text-align: center;
 }
 
@@ -48,8 +48,8 @@ aside ul {
 }
 
 aside li {
-    padding: 0;
     margin: 0;
+    padding: 0;
 }
 
 aside a {
@@ -57,10 +57,4 @@ aside a {
     padding: 10px 0;
     color: #fff;
     text-decoration: none;
-}
-
-/* Add a background color that stretches the entire page */
-body {
-    background-color: #000;
-    margin: 0;
 }
