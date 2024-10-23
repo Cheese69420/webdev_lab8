@@ -1,0 +1,73 @@
+/* Main Navigation Bar */
+#main-navbar {
+    background-color: blue; /* Set background color to blue */
+    overflow: hidden;
+}
+
+#navbar-container {
+    float: left;
+    width: 100%;
+    position: relative;
+}
+
+#main-navbar ul {
+    list-style-type: none; /* Removes bullet points */
+    margin: 0;
+    padding: 0;
+    position: relative;
+    left: 50%;
+    float: left;
+}
+
+#main-navbar ul li {
+    float: left;
+    position: relative;
+    right: 50%;
+    display: block;
+}
+
+#main-navbar ul li a {
+    display: block;
+    padding: 10px 20px;
+    color: #fff; /* White text color */
+    text-decoration: none;
+}
+
+#main-navbar ul li a:hover {
+    background-color: #000; /* Hover color to black */
+}
+
+#onpage {
+    text-decoration: underline overline;
+}
+
+/* Sidebar */
+#sidebar {
+    position: fixed;
+    right: 0%;
+    background-color: red; /* Set sidebar background color to red */
+    height: 100%;
+    width: 20%;
+}
+
+#sidebar ul {
+    list-style-type: none; /* Removes bullet points */
+    text-align: center;
+    padding: 0;
+}
+
+#sidebar ul li a {
+    display: block;
+    padding: 15px 0;
+    color: #fff; /* White text color */
+    text-decoration: none;
+}
+
+#sidebar ul li a:hover {
+    background-color: #000; /* Hover color to black */
+}
+
+/* General background color */
+body {
+    background-color: #e0e0ff; /* Soft blue background for the page */
+}
